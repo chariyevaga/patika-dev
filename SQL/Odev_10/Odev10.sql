@@ -20,4 +20,4 @@ SELECT
     first_name, 
     last_name 
 FROM customer 
-INNER JOIN rental on rental.customer_id = customer.customer_id;
+FULL JOIN rental on rental.customer_id = customer.customer_id;
